@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PAM8406DR
+#/528661/496119/2.49/16/0/Integrated Circuit
+DEF PAM8406DR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "PAM8406DR" 1150 200 50 H V L CNN
+F2 "SOIC127P605X175-16N" 1150 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/PAM8406.pdf" 1150 0 50 H I L CNN
+F4 "DiodesZetex PAM8406DR 2-Channel Audio Amplifier, Class-AB, Class-D Stereo, 16-Pin SOP" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PAM8406DR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-PAM8406DR" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8406DR?qs=%252BSlWJf1dfkLK5VNh%252Bez%2F0Q%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PAM8406DR" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pam8406dr/diodes-incorporated" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X +OUT_L 1 0 0 200 R 50 50 0 0 O
+X PGNDL 2 0 -100 200 R 50 50 0 0 W
+X -OUT_L 3 0 -200 200 R 50 50 0 0 O
+X PVDDL 4 0 -300 200 R 50 50 0 0 W
+X ~MUTE 5 0 -400 200 R 50 50 0 0 I
+X VDD 6 0 -500 200 R 50 50 0 0 W
+X INL 7 0 -600 200 R 50 50 0 0 I
+X VREF 8 0 -700 200 R 50 50 0 0 O
+X +OUT_R 16 1300 0 200 L 50 50 0 0 O
+X PGNDR 15 1300 -100 200 L 50 50 0 0 W
+X -OUT_R 14 1300 -200 200 L 50 50 0 0 O
+X PVDDR 13 1300 -300 200 L 50 50 0 0 W
+X ~SHDN 12 1300 -400 200 L 50 50 0 0 I
+X GND 11 1300 -500 200 L 50 50 0 0 W
+X INR 10 1300 -600 200 L 50 50 0 0 I
+X MODE 9 1300 -700 200 L 50 50 0 0 I
+P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

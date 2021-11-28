@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM8406DR
+D DiodesZetex PAM8406DR 2-Channel Audio Amplifier, Class-AB, Class-D Stereo, 16-Pin SOP
+K
+F https://www.diodes.com/assets/Datasheets/PAM8406.pdf
+$ENDCMP
+#
+#End Doc Library
